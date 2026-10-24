@@ -41,6 +41,9 @@
     /* The list waits for papers.csv so the examples don't flash up first */
     .js #papers-list:not(.ready) { visibility: hidden; }
 
+    /* Keeps a phrase, such as a two-person name, on one line */
+    .nowrap { white-space: nowrap; }
+
     footer { margin-top: 4rem; text-align: center; font-size: 0.85rem; }
   </style>
 </head>
@@ -68,7 +71,7 @@
         </svg>
       </figure>
 
-      <p>I am a PhD student in the School of Mathematics at Monash University, working in structural graph theory under the supervision of David Wood. My research interests include treewidth, graph minors, universal graphs and adjacency labelling schemes, graph product structure theory, the Erdős–Pósa property, and problems in coarse graph theory.</p>
+      <p>I am a PhD student in the School of Mathematics at Monash University, working in structural graph theory under the supervision of David Wood. My research interests include treewidth, graph minors, universal graphs and adjacency labelling schemes, graph product structure theory, the <span class="nowrap">Erdős–Pósa</span> property, and problems in coarse graph theory.</p>
       <p>I did my undergraduate degree in pure mathematics at Monash. My first exposure to graph theory, and to combinatorics in general, came near the end of my degree; I enjoyed it so much that I chose it for my Honours research project, writing my thesis on universal graphs.</p>
 
       <h2 id="papers">Papers</h2>
